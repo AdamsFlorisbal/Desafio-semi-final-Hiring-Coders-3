@@ -68,9 +68,11 @@ SSH is a secure protocol, but you need to register a key ssh in your github befo
 ```bash
 	vtex browse {your name workspace}
 ```
+/points
 ```bash /Points
 	vtex link
 ```
+/store-scrat
 ```bash /store-scrat
 	vtex link
 ```
