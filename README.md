@@ -1,4 +1,4 @@
-<h1 align="center">Hiring Coders - Desafio Semi-Final
+<h1 align="center">Hiring Coders 3 - Desafio Semi-Final
 	
 </h1>
 
