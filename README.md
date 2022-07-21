@@ -1,4 +1,4 @@
-<h1 align="center">Hiring Coders - Desafio Semi-Final
+<h1 align="center">Hiring Coders 3 - Desafio Semi-Final
 	
 </h1>
 
@@ -19,11 +19,11 @@
 
 # :house: About
 
-O objetivo deste desafio é calcular o gasto de um consumidor para pontos.
+The purpose of this challenge is to calculate a consumer's spend for points.
 
-Para mais detalhes:
+For more details:
 
-- [PDF Com desafio proposto](https://drive.google.com/file/d/1CCTwS08kb_FXBnWn80qwMusJZeMW5nXD/view) (required)
+- [PDF With proposed challenge](https://drive.google.com/file/d/1CCTwS08kb_FXBnWn80qwMusJZeMW5nXD/view)
 
 ---
 
@@ -68,11 +68,14 @@ SSH is a secure protocol, but you need to register a key ssh in your github befo
 ```bash
 	vtex browse {your name workspace}
 ```
+/points
 ```bash /Points
 	vtex link
 ```
+/store-scrat
 ```bash /store-scrat
 	vtex link
+```
 
 ---
 
@@ -176,8 +179,9 @@ SSH is a secure protocol, but you need to register a key ssh in your github befo
 				</sub>
 			</a>
 		</td>
+	</tr>	
 		
-	</tr>
+	
 	
 </table>
 
