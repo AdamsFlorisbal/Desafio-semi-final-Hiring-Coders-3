@@ -1,0 +1,188 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#4-desktop",
+      "flex-layout.row#5-desktop"
+
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer"
+
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "login",
+      "credit-points",
+      "image#scrat",
+      "minicart.v2",
+      "flex-layout.col#spacer"
+
+
+    ]
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": ""
+    }
+  },
+  "sticky-layout#5-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#5-desktop"]
+  },
+  "flex-layout.row#5-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/b7ba7ad4-557e-48cd-9c7c-a1a225bdd565___e229d50e21f1a3f5104b4a42724e1c4a.svg",
+      "width": "180",
+      "height": "30"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile", "flex-layout.row#2-mobile"]
+  },
+
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "login",
+      "flex-layout.col#spacer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "image#scrat": {
+    "title": "sctrat",
+    "props": {
+        "blockClass": "header-icons-scrat",
+        "src": "assets/header/point/scrat.svg"
+        
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "search-bar"
+
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-news",
+      "menu-item#category-product",
+      "menu-item#category-outlet",
+      "menu-item#category-blog"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/b7ba7ad4-557e-48cd-9c7c-a1a225bdd565___e229d50e21f1a3f5104b4a42724e1c4a.svg",
+      "width": "77.5",
+      "height": "27.5"
+    }
+  }
+}

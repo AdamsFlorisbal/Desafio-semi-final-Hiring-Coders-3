@@ -1,0 +1,18 @@
+.styledLinkContent {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #5C373C;
+}
+
+.styledLinkContainer{
+  margin-right: 80px;
+  margin-left: 150px;
+}
+
+.styledLinkContent--menu-item-footer{
+  color: #ffffff!important;
+}
+

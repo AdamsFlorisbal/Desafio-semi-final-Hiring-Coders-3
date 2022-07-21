@@ -1,0 +1,74 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-news",
+      "menu-item#category-product",
+      "menu-item#category-outlet",
+      "menu-item#category-blog"
+    ]
+  },
+  "menu-item#category-news": {
+    "props": {
+      "id": "menu-item#category-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/novidades/",
+        "noFollow": false,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      }
+    }
+  },
+  "menu-item#category-product": {
+    "props": {
+      "id": "menu-item#category-product",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product/",
+        "noFollow": false,
+        "tagTitle": "Produtos",
+        "text": "Produtos"
+      }
+    }
+  },
+  "menu-item#category-outlet": {
+    "props": {
+      "id": "menu-item#category-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/outlet/",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    }
+  },
+  "menu-item#category-blog": {
+    "props": {
+      "id": "menu-item#category-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog/",
+        "noFollow": false,
+        "tagTitle": "blog",
+        "text": "Blog"
+      }
+    }
+  }
+}
+

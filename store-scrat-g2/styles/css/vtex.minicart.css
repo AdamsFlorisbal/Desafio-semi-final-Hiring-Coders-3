@@ -1,0 +1,13 @@
+.minicartQuantityBadge{
+  background-color: #382225;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.cartIcon{
+  color: #5C373C;
+}

@@ -1,0 +1,18 @@
+{
+    "rich-text#question": {
+        "props": {
+            "text": "****Já conhece nossa loja?****",
+            "blockClass": "question-home",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#about-home": {
+        "props": {
+            "text": "\n***Somos uma loja virtual que oferece o melhor para os nossos clientes, onde podemos atender todas as expectativas sobre a moda sempre de olho nas tendências e lançamentos.***\n",
+            "blockClass": "about-home",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

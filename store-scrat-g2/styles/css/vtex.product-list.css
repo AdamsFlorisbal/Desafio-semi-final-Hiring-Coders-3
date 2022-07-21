@@ -1,0 +1,17 @@
+.productBrandName,
+.productVariationsItem{
+  color: #5C373C;
+  font-family: 'Roboto';
+}
+
+.price,
+.productName{
+  color:#382225;
+  font-family: 'Roboto';
+}
+
+.deleteIcon,
+.currencyInteger{
+  color: #9A6D73;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,17 @@
+.label{
+  text-transform: lowercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5C373C;
+}
+
+.container{
+  background-image: url(https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/a1d11231-7d05-4e8d-9e7a-54eebb6a6f69___27c15dcb153264992ea496060d37af52.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20px;
+}
+
+

@@ -1,0 +1,154 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop"   
+      
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-left-clothing",
+      "vtex.menu@2.x:menu#footer-middle-clothing",
+      "vtex.menu@2.x:menu#footer-rigth-clothing",
+      "flex-layout.row#icons-social-media",
+      "rich-text#title-credts"     
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  
+"flex-layout.row#icons-social-media": {
+  "title": "Icones",
+  "props": {
+      "blockClass": "icons-social-media",
+      "fullWidth": true,
+      "verticalAlign": "center",
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true
+  },
+  "children": [
+      "image#sociale1",
+      "image#sociale2",
+      "image#sociale3"
+    
+     
+  ]
+},
+"image#sociale1": {
+  "title": "Icon 1",
+  "props": {
+      "blockClass": "footer-icons-social",
+      "src": "assets/footer/social-medias/facebook.svg",
+      "link": "https://www.instagram.com/vtextruecloud/"
+  }
+},
+"image#sociale2": {
+  "title": "Icon 2",
+  "props": {
+      "blockClass": "footer-icons-social",
+      "src": "assets/footer/social-medias/twitter.svg",
+      "link": "https://www.instagram.com/vtextruecloud/"
+  }
+},
+"image#sociale3": {
+  "title": "Icon 3",
+  "props": {
+      "blockClass": "footer-icons-social",
+      "src": "assets/footer/social-medias/instagram.svg",
+      "link": "https://www.instagram.com/vtextruecloud/"
+  }
+},
+
+"rich-text#title-credts": {
+  "title": "Title",
+  "props": {
+      "text": "Site feito pelo Casa AtmoSphere - Grupo 2",
+      "blockClass": "footer-credts",
+      "textAlignment": "LEFT",
+      "textPosition": "RIGHT",
+      "font": "Roboto"
+  }
+},
+
+"footer-layout.mobile": {
+  "children": [
+    "flex-layout.row#footer-1-mobile"   
+    
+  ]
+},
+"flex-layout.row#footer-1-mobile": {
+  "children": [
+    "vtex.menu@2.x:menu#footer-mobile",
+    "flex-layout.row#icons-social-media",
+    "rich-text#title-credts-mobile"   
+    
+  ],
+  "props": {
+    "blockClass": "menu-row",
+    "paddingTop": 6,
+    "paddingBottom": 3
+  }
+},
+
+"flex-layout.row#icons-social-media-mobile": {
+"title": "Icones",
+"props": {
+    "blockClass": "icons-social-media",
+    "fullWidth": true,
+    "verticalAlign": "center",
+    "horizontalAlign": "left",
+    "preventHorizontalStretch": true
+    
+},
+"children": [
+    "image#sociale1-mobile",
+    "image#sociale2-mobile",
+    "image#sociale3"
+  
+   
+]
+},
+"image#sociale1-mobile": {
+"title": "Icon 1",
+"props": {
+    "blockClass": "footer-icons-social",
+    "src": "assets/footer/social-medias/facebook.svg",
+    "link": "https://www.instagram.com/vtextruecloud/"
+}
+},
+"image#sociale2-mobile": {
+"title": "Icon 2",
+"props": {
+    "blockClass": "footer-icons-social",
+    "src": "assets/footer/social-medias/twitter.svg",
+    "link": "https://www.instagram.com/vtextruecloud/"
+}
+},
+"image#sociale3-mobile": {
+"title": "Icon 3",
+"props": {
+    "blockClass": "footer-icons-social",
+    "src": "assets/footer/social-medias/instagram.svg",
+    "link": "https://www.instagram.com/vtextruecloud/"
+}
+},
+
+"rich-text#title-credts-mobile": {
+"title": "Title",
+"props": {
+    "text": "Site feito pelo Casa AtmoSphere - Grupo 2",
+    "blockClass": "footer-credts",
+    "textAlignment": "LEFT",
+    "textPosition": "RIGHT",
+    "font": "Roboto"
+}
+}
+
+}

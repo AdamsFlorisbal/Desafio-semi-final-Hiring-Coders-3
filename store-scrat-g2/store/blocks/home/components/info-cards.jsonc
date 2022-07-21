@@ -1,0 +1,31 @@
+{
+  "info-card#home-1": {
+    "props": {
+      "id": "info-card-home-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "textAlignment": "center",
+      "mobileImageURL": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/467e0d81-758d-48e2-bb3a-d30720494ac5___fdf57009c548580753cc8cf2cf37c000.jpg?width=309&height=204&aspect=true",
+      "imageUrl": "https://images2.imgbox.com/aa/69/qSF2vRud_o.jpg",
+      "headline": "Coleção de",
+      "subhead": "Verão",
+      "callToActionMode": "none",
+      "blockClass": "info-card-home-1"
+    }
+  },
+  "info-card#home-2": {
+    "props": {
+      "id": "info-card-home-2",
+      "isFullModeStyle": false,
+      "imageUrl": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/777a319b-5715-42b9-895c-44896b53b201___82ae0e0876c591096f2c716e384ab98d.png",
+      "mobileImageURL": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/ad0a8961-f7b4-48a3-b8e4-5b43269854c2___61b84cec28f8456193b568fab7e1903d.jpg",
+      "headline": "Recompensas",
+      "callToActionMode": "button",
+      "callToActionText": "SAIBA MAIS",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home-2",
+      "textPosition": "left",
+      "textAlignment": "center"
+    }
+  }
+}

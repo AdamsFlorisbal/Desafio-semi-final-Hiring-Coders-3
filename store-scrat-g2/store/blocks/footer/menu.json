@@ -1,0 +1,393 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#news",
+      "menu-item#prducts",
+      "menu-item#outlet",
+      "menu-item#blog"
+    ]
+  },
+  "menu-item#news": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {    
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "News",
+        "text": "Novidades"
+      }
+    }
+  },
+  "menu-item#prducts": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-products",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Products",
+        "text": "Produtos"
+      }
+    }
+  },
+  "menu-item#outlet": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    }
+  },
+  "menu-item#blog": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-middle-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#underwear",
+      "menu-item#skirts",
+      "menu-item#short"
+    ]
+  },
+
+  "menu-item#underwear": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-underwear",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/underwear",
+        "noFollow": true,
+        "tagTitle": "Underwear",
+        "text": "Partes de baixo"
+      }
+    }
+  },
+
+  "menu-item#skirts": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-skirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-feminina/saias",
+        "noFollow": true,
+        "tagTitle": "Skirts",
+        "text": "Saias"
+      }
+    }
+  },
+
+  "menu-item#short": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-short",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/short",
+        "noFollow": true,
+        "tagTitle": "Short",
+        "text": "Short"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-rigth-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#accessories",
+      "menu-item#earrings",
+      "menu-item#others"
+    ]
+  },
+
+  "menu-item#accessories": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessories/d",
+        "noFollow": true,
+        "tagTitle": "Accessories",
+        "text": "Acessórios"
+      }
+    }
+  },
+
+  "menu-item#earrings": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-earrings",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessories/earrings",
+        "noFollow": true,
+        "tagTitle": "earrings",
+        "text": "Brincos"
+      }
+    }
+  },
+
+  "menu-item#others": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-others",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessories/others",
+        "noFollow": true,
+        "tagTitle": "others",
+        "text": "Outros"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-left-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing",
+      "menu-item#tank-tops",
+      "menu-item#shirts",
+      "menu-item#coat",
+      "menu-item#dresses"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#acessories-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Roupas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#tank-tops",
+      "menu-item#shirts",
+      "menu-item#coat",
+      "menu-item#underwear",
+      "menu-item#skirts",
+      "menu-item#short",
+      "menu-item#dresses"
+    ]
+  },
+
+  "menu-item#acessories-mobile": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "itemProps": {        
+        "tagTitle": "Clothes",
+        "text": "Acessorios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#acessories"]
+  },
+  "vtex.menu@2.x:submenu.accordion#acessories": {
+    "children": ["vtex.menu@2.x:menu#footer-acessories-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-acessories-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#earrings"
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "itemProps": {
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#short"
+    ]
+  },
+
+  "menu-item#clothing": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Roupas"
+      }
+    }
+  },
+
+ 
+  "menu-item#tank-tops": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Tank tops",
+        "text": "Regatas"
+      }
+    }
+  },
+
+  "menu-item#shirts": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Camisetas"
+      }
+    }
+  },
+
+  "menu-item#coat": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-coat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/coat",
+        "noFollow": false,
+        "tagTitle": "Coat",
+        "text": "Casacos"
+      }
+    }
+  },
+
+  "menu-item#dresses": {
+    "props": {
+      "blockClass": "menu-item-footer",
+      "id": "menu-item-dresses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-feminina/vestidos",
+        "noFollow": false,
+        "tagTitle": "Dresses",
+        "text": "Vestidos"
+      }
+    }
+  }
+}
