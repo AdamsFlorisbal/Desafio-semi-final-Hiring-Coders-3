@@ -108,7 +108,7 @@ SSH is a secure protocol, but you need to register a key ssh in your github befo
 # :bust_in_silhouette: Author
 
 <table>
-	<tr>
+	
 		<td align="center">
 			<a href="https://github.com/AdamsFlorisbal">
 				<img
@@ -180,7 +180,7 @@ SSH is a secure protocol, but you need to register a key ssh in your github befo
 			</a>
 		</td>
 		
-	</tr>
+	
 	
 </table>
 
