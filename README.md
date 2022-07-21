@@ -23,7 +23,7 @@ The purpose of this challenge is to calculate a consumer's spend for points.
 
 For more details:
 
-- [PDF Com desafio proposto](https://drive.google.com/file/d/1CCTwS08kb_FXBnWn80qwMusJZeMW5nXD/view) (required)
+- [PDF With proposed challenge](https://drive.google.com/file/d/1CCTwS08kb_FXBnWn80qwMusJZeMW5nXD/view)
 
 ---
 
