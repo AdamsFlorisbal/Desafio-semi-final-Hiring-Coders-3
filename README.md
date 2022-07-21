@@ -6,14 +6,14 @@
 
 # :pushpin: Table of Contents
 
-- :house: [About](#about)
-- :dart: [Installation](#Installation)
-  - :gear: [Install dependencies](##Install_dependencies)
-  - :rocket: [Getting Started](##Getting_Started)
-- :computer: [Techs](#Techs)
-- :bust_in_silhouette: [Author](#Author)
-- :handshake: [Contributing](#Contributing)
-- :scroll: [License](#License)
+- :house: [About](#house-about)
+- :dart: [Installation](#dart-installation)
+  - :gear: [Install dependencies](#hammer_and_wrench-install-dependencies)
+  - :rocket: [Getting started](#rocket-getting-started)
+- :computer: [Techs](#computer-techs)
+- :bust_in_silhouette: [Author](#bust_in_silhouette-author)
+- :handshake: [Contributing](#handshake-contributing)
+- :scroll: [License](#scroll-license)
 
 ---
 
